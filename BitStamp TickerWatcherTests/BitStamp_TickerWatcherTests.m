@@ -28,6 +28,8 @@
 
 - (void)testExample
 {
+    // Commented out.
+    // Turned tests on with Cmd-U while trying to underline text in Credits.rtf.
     XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
 

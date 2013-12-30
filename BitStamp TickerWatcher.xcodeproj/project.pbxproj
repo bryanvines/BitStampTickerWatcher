@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		933AF8151871357900D41F50 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 933AF8141871357900D41F50 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		93B680C7187132B800F3A88C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B680C6187132B800F3A88C /* Cocoa.framework */; };
 		93B680D1187132B800F3A88C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93B680CF187132B800F3A88C /* InfoPlist.strings */; };
 		93B680D3187132B800F3A88C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B680D2187132B800F3A88C /* main.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		933AF8131871357900D41F50 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		933AF8141871357900D41F50 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		93B680C3187132B800F3A88C /* BitStamp TickerWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BitStamp TickerWatcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B680C6187132B800F3A88C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		93B680C9187132B800F3A88C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -118,6 +121,8 @@
 				93B680D8187132B800F3A88C /* BKVAppDelegate.h */,
 				93B680D9187132B800F3A88C /* BKVAppDelegate.m */,
 				93B680DB187132B800F3A88C /* MainMenu.xib */,
+				933AF8131871357900D41F50 /* JSONKit.h */,
+				933AF8141871357900D41F50 /* JSONKit.m */,
 				93B680DE187132B800F3A88C /* Images.xcassets */,
 				93B680CD187132B800F3A88C /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 			files = (
 				93B680DA187132B800F3A88C /* BKVAppDelegate.m in Sources */,
 				93B680D3187132B800F3A88C /* main.m in Sources */,
+				933AF8151871357900D41F50 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +471,7 @@
 				93B680F6187132B800F3A88C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93B680F7187132B800F3A88C /* Build configuration list for PBXNativeTarget "BitStamp TickerWatcherTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +480,7 @@
 				93B680F9187132B800F3A88C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

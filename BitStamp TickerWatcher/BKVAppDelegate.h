@@ -10,6 +10,14 @@
 
 @interface BKVAppDelegate : NSObject <NSApplicationDelegate>
 
+// BitStamp Value Properties
+@property NSNumber * highValue;
+@property NSNumber * lowValue;
+@property NSNumber * lastValue;
+@property NSNumber * bidValue;
+@property NSNumber * askValue;
+@property (copy) NSString * volumeValue;
+
 @property (assign) IBOutlet NSWindow *window;
 
 @end
