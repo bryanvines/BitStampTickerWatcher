@@ -7,7 +7,7 @@
 //
 
 #import "BKVAppDelegate.h"
-#include "JSONKit.h"
+#import "JSONKit.h"
 
 @implementation BKVAppDelegate
 
